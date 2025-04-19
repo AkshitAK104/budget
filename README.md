@@ -1,65 +1,65 @@
-Personal Finance Visualizer
-A modern, responsive React application to track your personal finances.
-Easily add transactions, manage categories, set budgets, and visualize your spending with interactive charts—all in a beautiful glassmorphic dashboard.
+# 💰 Personal Finance Visualizer
 
-🚀 Features
-Add, edit, and delete transactions (amount, date, description, category)
+A **modern, responsive React application** to track your personal finances. Easily add transactions, manage categories, set budgets, and visualize your spending with interactive charts—all within a **beautiful glassmorphic dashboard**.
 
-Category management (create, edit, delete categories)
+---
 
-Budgeting (set, edit, and track monthly budgets per category)
+## 🚀 Features
 
-Interactive charts (monthly expenses bar chart, category-wise pie chart, budget vs actual)
+- ✅ **Transactions**: Add, edit, and delete transactions (amount, date, description, category)  
+- 🗂️ **Category Management**: Create, edit, and delete categories  
+- 💸 **Budgeting**: Set, edit, and track monthly budgets per category  
+- 📊 **Interactive Charts**:  
+  - Monthly expenses bar chart  
+  - Category-wise pie chart  
+  - Budget vs. actual comparison  
+- 🧾 **Dashboard Summary**:  
+  - Total expenses  
+  - Recent transactions  
+  - Top categories  
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile  
+- 💾 **Persistent Data**: All data saved in your browser’s `localStorage`  
+- ✨ **Stunning UI**: Glassmorphic interface with smooth animations  
 
-Dashboard summary (total expenses, recent transactions, top categories)
+---
 
-Responsive design (works on desktop and mobile)
+## 🖼️ Screenshots
 
-Persistent data (all data saved in your browser’s localStorage)
+> _Include a screenshot here for visual context._
 
-Beautiful glassmorphic UI with subtle animations
+![Dashboard Screenshot](./screenshot.png)  
+<sub>Dashboard view with summary, charts, and transaction list</sub>
 
-🖼️ Screenshots
-![Dashboard Screenshot](./screenshot with summary, charts, and transaction list*
+---
 
-🏗️ Folder Structure
-text
-src/
-  components/
-    AnimatedCard.js
-    BudgetPlanner.js
-    CategoryManager.js
-    DashboardSummary.js
-    GlassCard.js
-    StatGrid.js
-    TransactionForm.js
-    TransactionList.js
-    charts/
-      MonthlyExpenseChart.js
-      CategoryPieChart.js
-      BudgetProgressChart.js
-  App.js
-  App.css
-  index.js
-  ...
-🛠️ Getting Started
-Prerequisites
-Node.js (v16+ recommended)
+## 🛠️ Getting Started
 
-npm (comes with Node.js)
+### Prerequisites
 
-Installation
-Clone this repository (or download the source code):
+- [Node.js](https://nodejs.org/) (v16+ recommended)  
+- npm (comes with Node.js)
 
-bash
+### Installation
+
+1. **Clone the repository**
+
+```bash
 git clone https://github.com/your-username/personal-finance-visualizer.git
 cd personal-finance-visualizer
-Install dependencies:
+```
 
-bash
+2. **Install dependencies**
+
+```bash
 npm install
-Run the app locally:
+```
 
-bash
+3. **Start the development server**
+
+```bash
 npm start
-The app will open at http://localhost:3000.
+```
+
+Visit the app in your browser at: [http://localhost:3000](http://localhost:3000)
+
+---
